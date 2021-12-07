@@ -9,3 +9,58 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* header  */
+
+header {
+  height: 70px;
+  line-height: 70px;
+}
+
+.Logo {
+  vertical-align: middle;
+}
+
+.head-title {
+  display: inline;
+  vertical-align: middle;
+}
+
+/* main  */
+
+main {
+  height: 400px;
+  padding: 20 0;
+}
+
+.conteiner {
+  border-radius: 20px;
+  width: 1024px;
+  padding: 20px;
+  background: white;
+  margin: 0 auto;
+}
+
+.conteiner-top {
+  border-radius: 20px 20px 0 0;
+  margin-bottom: 1px;
+}
+
+.bt {
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 10px 10px;
+  font-weight: bold;
+}
+
+.bt-task {
+  color: #fff;
+  background: rgba(109, 109, 224, 0.651);
+  border-color: rgba(109, 109, 224, 0.651);
+}
+
+.bt-section {
+  background: #fff;
+  color: gray;
+  border-color: gray;
+}
